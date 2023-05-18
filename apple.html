@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple/Watermelon</title>
+</head>
+<style>
+    html{
+        background-color: red;
+    }
+    a:link {
+        background-color: yellow;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        display: inline-block;
+        font-size: large;
+    }
+    img {
+        width: 600px;
+        height: 410;
+    }
+
+    .split {
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+    .left {
+        left: 0;
+        background-color: red;
+    }
+    .right {
+        right: 0;
+        background-color: green;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .centered img {
+        width: 150px;
+        border-radius: 50%;
+    }
+    div h1{
+        font: 20px;
+    }
+    div p{
+        font: 10px;
+    }
+</style>
+<div class="split left">
+    <div class="centered">
+        <h1>Apple</h1>
+        <p>Apples are very nice</p>
+        <img src="https://www.applesfromny.com/wp-content/uploads/2020/06/SnapdragonNEW.png">
+        <a href="corn.html" target="_self">Corn/Potato</a>
+    </div>
+</div>
+<div class="split right">
+    <div class="centered">
+        <h1>Watermelon</h1>
+        <p>Watermelons are awesome</p>
+        <img src="https://images.heb.com/is/image/HEBGrocery/000583329?fit=constrain,1&wid=800&hei=800&fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0">
+        <a href="corn.html" target="_self">Corn/Potato</a>
+    </div>
+</div>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corn/Potato</title>
+</head>
+<style>
+        html{
+        background-color: red;
+    }
+    a:link {
+        background-color: yellow;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        display: inline-block;
+        font-size: large;
+    }
+    img {
+        width: 600px;
+        height: 410;
+    }
+
+    .split {
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+    .left {
+        left: 0;
+        background-color: yellow;
+    }
+    .right {
+        right: 0;
+        background-color: tan;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .centered img {
+        width: 150px;
+        border-radius: 50%;
+    }
+    div h1{
+        font: 20px;
+    }
+    div p{
+        font: 10px;
+    }
+</style>
+<div class="split left">
+    <div class="centered">
+        <h1>Corn on the Cob</h1>
+        <p>Corn on the cob is very nice</p>
+        <img src="https://240798.fs1.hubspotusercontent-na1.net/hubfs/240798/images-2022/p-main-corn-22.png">
+        <a href="apple.html" target="_self">Apple/Watermelon</a>
+    </div>
+</div>
+<div class="split right">
+    <div class="centered">
+        <h1>Potato</h1>
+        <p>Potatoes are super nice</p>
+        <img src="https://www.macmillandictionary.com/external/slideshow/full/141151_full.jpg">
+        <a href="apple.html" target="_self">Apple/Watermelon</a>
+    </div>
+</div>
+</html>
